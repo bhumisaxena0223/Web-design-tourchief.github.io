@@ -1,0 +1,127 @@
+@media screen and (max-width: 991px) 
+{
+	.background2::after 
+	{
+    position: absolute;
+    content: none;
+	}
+	.compare-bg
+	{
+		text-align: center;
+	}
+	.img-padding
+	{
+		padding-bottom: 30px;
+	}
+	.footer-background::before
+	{
+		content: none;
+	}
+}
+@media screen and (max-width: 767px)
+{
+	.add-to-cart-first
+	{
+		padding: 5px;
+		max-width: 320px;
+		top:274px;
+	}
+	.img-padding
+	{
+		padding-bottom: 10px;
+		margin-top: 20px;
+		max-width: 100%;
+	}
+	.mid-img-div1
+	{
+		max-width:  320px;
+	}
+	.free-div1
+	{
+		padding-left: 20px;
+	}
+	.footer-background::before
+	{
+		content: none;
+	}
+	.tc-fdest-text
+	{
+		width: 80%;
+	}
+	.popular-heading
+	{
+		font-size: 24px;
+	}
+	.top-bar
+	{
+		text-align: center;
+	}
+	.background2::after 
+	{
+	    position: absolute;
+	    content: none;
+	}
+	.tc-footer-table1
+	{
+		padding-left: 0px;
+	}
+	.tc-footer-table2
+	{
+		padding-left: 0px;
+	}
+	.title-head 
+	{
+    	font-size: 38px;
+	}
+	.text-para
+	{
+		font-size: 28px;
+	}
+	.free-div2
+	{
+		font-size: 14px;
+		text-align: center;
+		right: 0px;
+	}
+	.ausyd1234-div
+	{
+		top: 250px;
+	}
+	.ausyd-img-div
+	{
+		top: 253px;
+	}
+	.cart-img
+	{
+		bottom: 50px;
+	}
+	.add-cart-div
+	{
+		padding-top: 20px;
+	}
+	.add-more-details
+	{
+		padding-left: 83px;
+	}
+	.Child-text
+	{
+		font-size: 10px;
+	}
+	.logo-img
+	{
+		width: 90%;
+	}
+	.tc-slider-left
+	{
+		top:55px;
+		left: 8px;
+	}
+	.tc-slider
+	{
+		top: 55px;
+	}
+	.row-change 
+	{
+    margin-right: -20px;
+	}
+}

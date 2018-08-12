@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Tour chief</title>
+	<!--meta tag-->
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<!--bootstraps-->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<!--css-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!--media query-->
+	<link rel="stylesheet" type="text/css" href="assets/css/media.css">
+	<!--favicon-->
+	<link rel="icon" type="image/gif" href="assets/images/favicon.png" sizes="16x16">
+	<!--bootstrap added some script to use dropdown and navbar-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<!--fonts-->
+  	<link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+</head>
+<body>
+	<!--wrapper class_-->
+	<div class="wrapper-container">
+		<!---background color div-->
+		<div class="background container-fluid">
+			<div class="container">
+				<div class="row clearfix">
+					<!--top ba not scroll-->
+					<div class="top-bar">
+						<ul class="top-bar-list"><!--top bar list-->
+					      	<li>
+							   <a href="#">
+						        	<div class="cart-bg">
+					        			<img src="assets/images/shopping-cart.png" alt="cart">
+										<div class="cart-badge">
+											<span class="badge">4</span>
+										</div>
+					        		</div>
+					        	</a>
+					        </li>
+					        <li><a href="#"><img src="assets/images/phone-call.png" alt="phone"></a></li>
+					        <li><a href="#"><img src="assets/images/envelope.png" alt="msg"></a></li>
+					        <li><a href="#"><img src="assets/images/sun.png" alt="sun"></a></li>
+					    </ul><!--css use to hide list style an d to display inline-->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--container to show --icon-bar-->
+		<div class="container">
+			<div class="row clearfix">
+				<nav class="navbar navbar-inverse navbar-color">
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle toggle-color" data-toggle="collapse" data-target="#myNavbar">
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>                        
+				      </button>
+				       <a class="navbar-brand" href="#"><img src="assets/images/tc-logo.png" alt="tourchief logo" class="img-responsive logo-img"></a>
+				    </div>
+				    <!--right side bar-->
+				    <div class="collapse navbar-collapse navcolor-bar" id="myNavbar">
+				      <ul class="nav navbar-nav navbar-right">
+				        <li>
+				        	<a href="#">Menu</a>
+				        </li>
+				       <li class="dropdown">
+			         	 	<a class="dropdown-toggle" data-toggle="dropdown" href="#">English<span class="caret"></span></a>
+					         <ul class="dropdown-menu">
+					           <li><a href="#">English</a></li>
+					            <li><a href="#">Chinese</a></li>
+					           <li><a href="#">Spanish</a></li>
+					         </ul>
+			        	</li>
+			        	<!--dropdown menu-->
+			        	<li class="dropdown">
+					          <a class="dropdown-toggle" data-toggle="dropdown" href="#">AUD($)<span class="caret"></span></a>
+					          <ul class="dropdown-menu">
+					            <li><a href="#">USA($)</a></li>
+					            <li><a href="#">EURO(&euro;)</a></li>
+					          </ul>
+			        	</li>
+				        <li><a href="#">Supplier login</a></li>
+				        <li><a href="#">Manage booking</a></li>
+				      </ul>
+				    </div>
+				</nav>
+			</div>
+		</div>
+		<!--background to color-->
+			<div class="background2 container-fluid">
+				<div class="container">
+					<!--breadcrumb class used-->
+					<ul class="breadcrumb breadcrumb-list">
+				        <li><a href="#">Home</a></li>
+				        <li><a href="#">Sydney</a></li>
+				        <li class="active">Cruises</li>
+				    </ul>
+				    <!--heading sydney cruises-->
+					<div class="sydney-main-head">
+						<h1 class="title-head">Sydney Cruises</h1>
+						<p class="text-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+						<a href="#"><div class="tc-read-more"><span>Read More</span></div></a>
+					</div>
+				</div>
+			</div>
+			<!--main content container-->
+		<div class="container mid-box">
+			<div class="row clearfix">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<div class="side-rt-apply">
+						<!--apply block-->
+						<a href="#">
+							<span class="apply-font">
+							Applied Filters
+							</span>
+						</a>
+						<a href="#">
+							<span class="clear-font">Clear-All</span>
+						</a>
+					</div>
+					<!--apply block options-->
+					<div class="side-select">
+						<div class="col--ld-6 col-md-6 col-sm-6 col-xs-6 sd-bar1">
+							<span>
+								All Crusies X
+							</span>
+						</div>
+						<div class="col--ld-6 col-md-6 col-sm-6 col-xs-6 sd-bar2">
+							<span>
+								12 pm - 3 pm X
+							</span>
+						</div>
+						<div class="col--ld-6 col-md-6 col-sm-6 col-xs-6 sd-bar3">
+							<span>$100 - $150 X</span>
+						</div>
+					</div>
+					<!--compare block-->
+					<div class="compare-bg">
+						<a href="#">
+							<img src="assets/images/compare.jpg" alt="compare container" class="compare-img img-responsive">
+						</a>
+							<div class="compare-plus">
+								<img src="assets/images/add-plus.png" alt="add-plus" class="img-responsive tc-comp-img">
+							</div>
+						<a href="#">
+							<div class="compare-font">
+								<h3 class="compare-heading">COMPARE</h3>
+								<span class="compare-text">up to <span class="compare-5">5</span> Experience</span>
+							</div>
+						</a>
+						<div class="comp-icon">
+							<!--compare icon-->
+							<a href="#"><img src="assets/images/plus.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Click on this icon in product box</span>
+						</div>
+					</div>
+					<!--side menu of cruises-->
+					<div class="side-options">
+							<h5>crusies type
+								<span class="tc-div- pull-right">-</span>
+							</h5>
+						
+						<!--div to ahow menu options-->
+						<div class="side-options-all">
+							<ul class="crusies-type-li">
+								<li>
+									<a href="#" class="active">All crusies</a>
+									<span class="options-all-sd">53</span>
+								</li>
+								<li>
+									<a href="#">dinner crusies</a>
+									<span class="options-all-sd">12</span>
+
+								</li>
+								<li>
+									<a href="#">lunch crusies</a>
+									<span class="options-all-sd">15</span>
+
+								</li>
+								<li>
+									<a href="#">sightseening</a>
+									<span class="options-all-sd">6</span>
+
+								</li>
+								<li>
+									<a href="#">whale watching crusies</a>
+									<span class="options-all-sd">8</span>
+
+								</li>
+								<li>
+									<a href="#">NYE crusies</a>
+									<span class="options-all-sd">10</span>
+
+								</li>
+								<li>
+									<a href="#">special event crusies</a>
+									<span class="options-all-sd">9</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!--side menu of depature-->
+					<div class="side-options">
+						<div class="row clearfix">
+							<h5>Departure type
+								<span class="tc-div- pull-right">-</span>
+							</h5>
+						</div>
+						<!--div to ahow menu options-->
+						<div class="side-options-all">
+							<ul class="Departure-li">
+								<li>
+									<a href="#" class="active">8 am - 12 am</a>
+									<span class="options-all-sd">12</span>
+								</li>
+								<li>
+									<a href="#">12 am - 3 pm</a>
+									<span class="options-all-sd">15</span>
+
+								</li>
+								<li>
+									<a href="#">3 pm - 7 pm</a>
+									<span class="pull-right">16</span>
+								</li>
+								<li>
+									<a href="#">7 pm - 10 pm</a>
+									<span class="options-all-sd">8</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="tour-free-gift">
+						<img src="assets/images/free-tour.jpg" alt="tour-free" class="img-responsive">
+						<div class="free-div1">
+							<a href="#">
+								<img src="assets/images/gift.png">
+							</a><br><br>
+							<span class="tc-gift-text">
+								free tours & free gifts
+							<br>
+							with Select Experience
+							</span>
+							<div class="free-div2"> 
+								<span>Keep an eye out for products with this icon</span>
+							</div>
+						</div>
+					</div>
+					<!--side menu of budget-->
+					<div class="side-options">
+						<div class="row clearfix">
+							<h5>budget 
+								<span class="tc-div- pull-right">-</span>
+							</h5>
+						</div>
+						<!--div to ahow menu options-->
+						<div class="side-options-all">
+							<ul class="crusies-type-li">
+								<li>
+									<a href="#">$0 - 100</a>
+									<span class="options-all-sd">12</span>
+								</li>
+								<li>
+									<a href="#" class="active">$100 - 150</a>
+									<span class="options-all-sd">15</span>
+
+								</li>
+								<li>
+									<a href="#">$150 - 300</a>
+									<span class="options-all-sd">16</span>
+
+								</li>
+								<li>
+									<a href="#">$150 - 300</a>
+									<span class="options-all-sd">8</span>
+
+								</li>
+								<li>
+									<a href="#">$300 - 500</a>
+									<span class="options-all-sd">8</span>
+
+								</li>
+								<li>
+									<a href="#">$500 - more</a>
+									<span class="options-all-sd">9</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!--choose by operator-->
+					<div class="side-options">
+						<div class="row clearfix">
+							<div class="sd-options">
+								<h5>choose by operator
+									<span class="tc-div- pull-right">-</span>
+								</h5>
+							</div>
+						</div>
+						<!--menu optiions-->
+						<div class="side-options-all">
+							<ul class="crusies-type-li">
+								<li>
+									<a href="#">magistics crusies</a>
+									<span class="options-all-sd">5</span>
+								</li>
+								<li>
+									<a href="#">sydney showboats</a>
+									<span class="options-all-sd">15</span>
+
+								</li>
+								<li>
+									<a href="#">clearview crusies</a>
+									<span class="options-all-sd">16</span>
+
+								</li>
+								<li>
+									<a href="#">captian cook</a>
+									<span class="options-all-sd">8</span>
+
+								</li>
+								<li>
+									<a href="#">fantasea</a>
+									<span class="options-all-sd">10</span>
+
+								</li>
+								<li>
+									<a href="#">oz</a>
+									<span class="options-all-sd">3</span>
+								</li>
+								<li>
+									<a href="#">Sydney harbour tall ships</a>
+									<span class="options-all-sd">4</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!--contact block-->
+					<div class="sd-contact">
+						<div class="contact-div1">
+							<h3>contact the chief</h3><br>
+							<span class="contact-span">call: +612 8296 7363</span><br>
+							<a href="#" class="email-color">
+								<span>email:contact@tourchief.com</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<!--image and content blocks-->
+				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 container">
+					<div class="row clearfix row-change">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 img-padding">
+							<a href="#">
+								<img src="assets/images/cruise-trip.jpg" alt="dinner boat" class="img-responsive">
+							</a>
+							<div class="value-tag">
+								<span>$150</span>
+							</div>
+							<div class="mid-img-div1">
+								<a href="#"><span class="badge close-badge">X</span></a>
+								<h4>sydney showboats<br>dinner cruise</h4>
+								<a href="#"><span class="sydney-select-div">select your tour details</span></a>
+								<div class="input-column">
+									<form>
+									  <input type="text" name="tour-details" placeholder="15 oct 2017,Monday" size="35" class="input-blank" value="">
+										<a href="#">
+											<img src="assets/images/calendar.png" class="img-responsive">
+										</a>
+									</form>
+								</div>
+								<!--dic tp show person- tour details-->
+								<div class="persons-details">
+									<div class="adult-div-block">
+										<div class="row clearfix">
+											<!--div to show persons-->
+											<div class="col-lg-5 col-md-5 col-sm-4 col-xs-4 adult-div">
+												<span class="adult-heading">Adult</span>
+											</div>
+											<!--button accordingly in row using btn btn-primary class-->
+											<div class="col-lg-5 col-md-5 col-sm-6 col-xs-6 adultbtn-div">
+												 <div class="btn-group">
+												    <button type="button" class="btn btn-primary btn-color">-</button>
+												    <button type="button" class="btn btn-primary btn-color">01</button>
+												    <button type="button" class="btn btn-primary btn-color">-</button>
+												  </div>
+											</div>
+											<!--rate block-->
+											<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 rate-div">
+												<span class="rate-adult">$79</span>
+											</div>
+											<!--div to show persons-->
+											<div class="col-lg-5 col-md-5 col-sm-4 col-xs-4 adult-div">
+												<span class="adult-heading">Child</span><br>
+												<span class="Child-text">7-17 years</span>
+											</div>
+											<!--button accordingly in row using btn btn-primary class-->
+											<div class="col-lg-5 col-md-5 col-sm-6 col-xs-6 adultbtn-div">
+												 <div class="btn-group">
+												    <button type="button" class="btn btn-primary btn-color">-</button>
+												    <button type="button" class="btn btn-primary btn-color">01</button>
+												    <button type="button" class="btn btn-primary btn-color">-</button>
+												  </div>
+											</div>
+											<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 rate-div">
+												<span class="rate-adult">$00</span>
+											</div>
+											<!--dic tp show person- tour details-->
+											<div class="col-lg-5 col-md-5 col-sm-4 col-xs-4 adult-div">
+												<span class="adult-heading">infant</span><br>
+												<span class="Child-text">below 7 years</span>
+											</div>
+											<!--button accordingly in row using btn btn-primary class-->
+											<div class="col-lg-5 col-md-5 col-sm-6 col-xs-6 adultbtn-div">
+												 <div class="btn-group">
+												    <button type="button" class="btn btn-primary btn-color">-</button>
+												    <button type="button" class="btn btn-primary btn-color">01</button>
+												    <button type="button" class="btn btn-primary btn-color">-</button>
+												  </div>
+											</div>
+											<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 rate-div">
+												<span class="rate-adult">$00</span>
+											</div>
+											<!--dic tp show person- tour details-->
+											<!--button accordingly in row using btn btn-primary class-->
+											<!--dic tp show person- tour details-->
+											<div class="col-lg-5 col-md-5 col-sm-4 col-xs-4 adult-div">
+												<span class="adult-heading">family</span><br>
+												<span class="Child-text">2 adults + 2 children</span>
+											</div>
+											<!--button accordingly in row using btn btn-primary class-->
+											<div class="col-lg-5 col-md-5 col-sm-6 col-xs-6 adultbtn-div">
+												 <div class="btn-group">
+												    <button type="button" class="btn btn-primary btn-color">-</button>
+												    <button type="button" class="btn btn-primary btn-color">01</button>
+												    <button type="button" class="btn btn-primary btn-color">-</button>
+												  </div>
+											</div>
+											<!--rate-->
+											<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 rate-div">
+												<span class="rate-adult">$00</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!--depature /pickup block-->
+								<div class="choose-div">
+									<select class="choose-select">
+										<option value="choose">choose depature/pickup</option>
+										<option value="10 am">10 am</option>
+										<option value="12 am">12 am</option>
+										<option value="1 pm">1 pm</option>
+									</select>
+								</div>
+							</div>
+							<div class="add-to-cart-first">
+								<a href="#"><span class="add-to-span">Add to cart</span></a>
+							</div>
+						</div>
+						<!--class=img padding use to make div-->
+						<!--value tag div ,img-ausyd, mid part-div--> 
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 img-padding">
+							<a href="#">
+								<img src="assets/images/glass-cuise.jpg" alt="glass Cruise" class="img-responsive">
+								<div class="value-tag">
+									<span>$150</span>
+								</div>
+							</a>
+							<div class="ausyd-img-div">
+								<div class="img-ausyd">
+									<a href="#">
+										<img src="assets/images/gift.png" class="img-responsive" align="gift">
+									</a>
+								</div>
+								<div class="ausyd1234">
+									<span class="ausyd1234-text">AUSTYD1234</span>
+								</div>
+							</div>
+							<div class="mid-lower-part">
+								<a href="#"><h4 class="mid-heading">clearview (Blur Room)<br>glass boat dinner cruise</h4></a>
+								<img src="assets/images/5star.png" alt="5 stars" class="img-responsive"><br>
+								<span class="mid-div-text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing
+								</span><br>
+								<ul class="mid-ul-li">
+									<li>nostrud exercitation | aliquip ullamco </li>
+									<li>laboris nisi ut aliquip | ea commodo consequat</li>
+								</ul>
+								<div class="add-to-cart">
+									<a href="#">&nbsp;&nbsp;&nbsp;
+										<span>Add to cart</span>
+										<div class="cart-img">
+											<img src="assets/images/add.png" alt="plus to cart" class="img-responsive">
+										</div>
+										<span class="add-more-details">more details</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<!--class=img padding use to make div-->
+						<!--value tag div ,img-ausyd, mid part-div--> 
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 img-padding">
+							<a href="#">
+								<img src="assets/images/whale-watch.jpg" alt="whale-watching" class="img-responsive">
+								<div class="value-tag">
+									<span>$94</span>
+								</div>
+							</a>
+							<div class="ausyd1234-div">
+								<span class="ausyd1234-text-span">AUSTYD1234</span>
+							</div>
+							<div class="mid-lower-part">
+
+								<a href="#"><h4 class="mid-heading">OZ Whale watching<br>Sydney harbour lunch</h4></a>
+								<img src="assets/images/5star.png" alt="5 stars" class="img-responsive"><br>
+								<span class="mid-div-text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing
+								</span><br>
+								<ul class="mid-ul-li">
+									<li>nostrud exercitation | aliquip ullamco </li>
+									<li>laboris nisi ut aliquip | ea commodo consequat</li>
+								</ul>
+								<div class="add-to-cart">
+									<a href="#">&nbsp;&nbsp;&nbsp;
+										<span>Add to cart</span>
+										<div class="cart-img">
+											<img src="assets/images/add.png" alt="plus to cart" class="img-responsive">
+										</div>
+										<span class="add-more-details">more details</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<!--class=img padding use to make div-->
+						<!--value tag div ,img-ausyd, mid part-div--> 
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 img-padding">
+							<a href="#">
+								<img src="assets/images/captain-cook.jpg" alt="whale-watching" class="img-responsive">
+								<div class="value-tag">
+									<span>$49</span>
+								</div>
+							</a>
+							<div class="ausyd-img-div">
+								<div class="img-ausyd">
+									<a href="#">
+										<img src="assets/images/gift.png" class="img-responsive" align="gift">
+									</a>
+								</div>
+								<div class="ausyd1234">
+									<span class="ausyd1234-text">AUSTYD1234</span>
+								</div>
+							</div>
+							<div class="mid-lower-part">
+								<a href="#"><h4 class="mid-heading">captain cook lunch cruise -<br>circular quay</h4></a>
+								<img src="assets/images/5star.png" alt="5 stars" class="img-responsive"><br>
+								<span class="mid-div-text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing
+								</span><br>
+								<ul class="mid-ul-li">
+									<li>nostrud exercitation | aliquip ullamco </li>
+									<li>laboris nisi ut aliquip | ea commodo consequat</li>
+								</ul>
+								<div class="add-to-cart">
+									<a href="#">&nbsp;&nbsp;&nbsp;
+										<span>Add to cart</span>
+										<div class="cart-img">
+											<img src="assets/images/add.png" alt="plus to cart" class="img-responsive">
+										</div>
+										<span class="add-more-details">more details</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<!--class=img padding use to make div-->
+						<!--value tag div ,img-ausyd, mid part-div--> 
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 img-padding">
+							<a href="#">
+								<img src="assets/images/zoo.jpg" alt="zoo-watching" class="img-responsive">
+								<div class="value-tag">
+									<span>$63</span>
+								</div>
+							</a>
+							<div class="ausyd1234-div">
+								<span class="ausyd1234-text-span">AUSTYD1234</span>
+							</div>
+							<div class="mid-lower-part">
+								<a href="#"><h4 class="mid-heading">captain cook zoo<br>express cruise</h4></a>
+								<img src="assets/images/5star.png" alt="5 stars" class="img-responsive"><br>
+								<span class="mid-div-text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing
+								</span><br>
+								<ul class="mid-ul-li">
+									<li>nostrud exercitation | aliquip ullamco </li>
+									<li>laboris nisi ut aliquip | ea commodo consequat</li>
+								</ul>
+								<div class="add-to-cart">
+									<a href="#">&nbsp;&nbsp;&nbsp;
+										<span>Add to cart</span>
+										<div class="cart-img">
+											<img src="assets/images/add.png" alt="plus to cart" class="img-responsive">
+										</div>
+										<span class="add-more-details">more details</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<!--class=img padding use to make div-->
+						<!--value tag div ,img-ausyd, mid part-div--> 
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 img-padding">
+							<a href="#">
+								<img src="assets/images/taronga-zoo.jpg" alt="taronga-zoo-watching" class="img-responsive">
+								<div class="value-tag">
+									<span>$69</span>
+								</div>
+							</a>
+							<div class="ausyd-img-div">
+								<div class="img-ausyd">
+									<a href="#">
+										<img src="assets/images/gift.png" align="gift" class="img-responsive">
+									</a>
+								</div>
+								<div class="ausyd1234">
+									<span class="ausyd1234-text">AUSTYD1234</span>
+								</div>
+							</div>
+							<div class="mid-lower-part">
+								<a href="#"><h4 class="mid-heading">captain cook hop on hop off +<br>taronga zoo</h4></a>
+								<img src="assets/images/5star.png" alt="5 stars" class="img-responsive"><br>
+								<span class="mid-div-text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing
+								</span><br>
+								<ul class="mid-ul-li">
+									<li>nostrud exercitation | aliquip ullamco </li>
+									<li>laboris nisi ut aliquip | ea commodo consequat</li>
+								</ul>
+								<div class="add-to-cart">
+									<a href="#">
+										<div class="cart-img">
+											<img src="assets/images/add.png" alt="plus to cart" class="img-responsive">
+										</div>
+										<div class="add-cart-div">
+											&nbsp;&nbsp;&nbsp;<span>Add to cart</span>
+											<span class="add-more-details">more details</span>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<!--class=img padding use to make div-->
+						<!--value tag div ,img-ausyd, mid part-div--> 
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 img-padding">
+							<a href="#">
+								<img src="assets/images/majestic-buffet.jpg" alt="taronga-zoo-watching" class="img-responsive">
+								<div class="value-tag">
+									<span>$69</span>
+								</div>
+							</a>
+							<div class="ausyd-img-div">
+								<div class="img-ausyd">
+									<a href="#">
+										<img src="assets/images/gift.png">
+									</a>
+								</div>
+								<div class="ausyd1234">
+									<span class="ausyd1234-text">AUSTYD1234</span>
+								</div>
+							</div>
+							<div class="mid-lower-part">
+								<a href="#">
+									<h4 class="mid-heading">captain cook lunch cruise -<br>circular quay</h4>
+								</a>
+								<img src="assets/images/5star.png" alt="5 stars" class="img-responsive"><br>
+								<span class="mid-div-text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing
+								</span><br>
+								<ul class="mid-ul-li">
+									<li>nostrud exercitation | aliquip ullamco </li>
+									<li>laboris nisi ut aliquip | ea commodo consequat</li>
+								</ul>
+								<div class="add-to-cart">
+									<a href="#">&nbsp;&nbsp;&nbsp;
+										<span>Add to cart</span>
+										<div class="cart-img">
+											<img src="assets/images/add.png" alt="plus to cart">
+										</div>
+										<span class="add-more-details">more details</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<!--class=img padding use to make div-->
+						<!--value tag div ,img-ausyd, mid part-div--> 
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 img-padding">
+							<a href="#">
+								<img src="assets/images/nye-clearview.jpg" alt="taronga-zoo-watching" class="img-responsive">
+								<div class="value-tag">
+									<span>$69</span>
+								</div>
+							</a>
+							<div class="ausyd-img-div">
+								<div class="img-ausyd">
+									<a href="#">
+										<img src="assets/images/gift.png">
+									</a>
+								</div>
+								<div class="ausyd1234">
+									<span class="ausyd1234-text">AUSTYD1234</span>
+								</div>
+							</div>
+							<div class="mid-lower-part">
+								<a href="#"><h4 class="mid-heading">NYE Cleanview<br>circular quay</h4></a>
+								<img src="assets/images/5star.png" alt="5 stars" class="img-responsive"><br>
+								<span class="mid-div-text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing
+								</span><br>
+								<ul class="mid-ul-li">
+									<li>nostrud exercitation | aliquip ullamco </li>
+									<li>laboris nisi ut aliquip | ea commodo consequat</li>
+								</ul>
+								<div class="add-to-cart">
+									<a href="#">&nbsp;&nbsp;&nbsp;
+										<span>Add to cart</span>
+										<div class="cart-img">
+											<img src="assets/images/add.png" alt="plus to cart">
+										</div>
+										<span class="add-more-details">more details</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--pagination class-->
+				<div class="container">
+					<div class="row clearfix row-change-page">
+						<div class="paging-div pull-right">
+							<ul class="pagination paging-list">
+							  <li class="active"><a href="#">1</a></li>
+							  <li><a href="#">2</a></li>
+							  <li><a href="#">3</a></li>
+							  <li><a href="#">4</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--sydney review class-->
+				<div class="container">
+					<div class="row clearfix">
+					<div class="review-crusie">
+						<span class="review-text">
+							Sydney cruise Reviews
+						</span>
+						<span class="pull-right"><a href="#" class="Review-color">+</a></span>
+					</div>
+					</div>
+				</div>
+				<!--blogs and arcticles-->
+				<div class="container">
+					<div class="row clearfix">
+						<div class="blog">
+							<span class="blog-text">Blogs & Arcticles</span>
+							<span class="pull-right read-blog-text">read more blogs</span>
+						</div>
+					</div>
+				</div>
+				<!--img and para block-->
+				<div class="container">
+					<div class="row clearfix">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<a href="#">
+								<img src="assets/images/blog1.jpg" class="img-responsive">
+							</a>
+							<a href="#">
+							<div class="tc-slider-left"><img src="assets/images/left.png" alt="slider"></div>
+							</a>
+							<div class="blog-text-div">
+								<span class="blog-heading">lorem ipsum dolor sit amet</span>
+								<p class="blog-para">
+									Lorem ipsum dolor sit amet, consecturer adisiping elit, sed do enusimod tempor incididunet ut labore et dolore magna aliquia . ut enim ad minim  verniam,
+									<a href="#"><span class="blog-read">Read More</span></a>
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<a href="#">
+								<img src="assets/images/blog2.jpg" class="img-responsive">
+							</a>
+							<a href="#">
+								<div class="tc-slider"><img src="assets/images/slider.png" alt="slider"></div>
+							</a>
+							<div class="blog-text-div">
+								<span class="blog-heading">lorem ipsum dolor sit amet</span>
+								<p class="blog-para">
+									Lorem ipsum dolor sit amet, consecturer adisiping elit, sed do enusimod tempor incididunet ut labore et dolore magna aliquia . ut enim ad minim  verniam,
+									<a href="#"><span class="blog-read">Read More</span></a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row clearfix">
+						<div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
+							<div class="popular-block">
+								<h2 class="popular-heading">other popular sydney experience</h2>
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 pull-right popular-see-all">
+							<span class="tc-see-all pull-right">See all</span>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 popular-img">
+							<a href="#">
+								<img src="assets/images/attractions.jpg" alt="attractions">
+							</a>
+							<div class="tc-fdest-tag">
+								<span  class="tc-fdest-name">Attractions</span><br>
+								<span class="tc-experiences">from $000</span>
+							</div>
+							<a href="#">
+								<div class="tc-fdest-text"> 
+									<span>voluputulam acusstanium dolor</span>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 popular-img">
+							<a href="#">
+								<img src="assets/images/mountain-tour.jpg">
+							</a>
+							<div class="tc-fdest-tag">
+								<span  class="tc-fdest-name">blue mountain tour</span><br>
+								<span class="tc-experiences">from $000</span>
+							</div>
+							<a href="#">
+								<div class="tc-fdest-text"> 
+									<span>voluputulam acusstanium dolor</span>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 popular-img">
+							<a href="#">
+								<img src="assets/images/sightseeing.jpg">
+							</a>
+							<div class="tc-fdest-tag">
+								<span  class="tc-fdest-name">sightseening day tour</span><br>
+								<span class="tc-experiences">from $000</span>
+							</div>
+							<a href="#">
+								<div class="tc-fdest-text"> 
+									<span>voluputulam acusstanium dolor</span>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 scenic-div">
+							<a href="#">
+								<img src="assets/images/sci-tourcrop.jpg" class="scenic-img">
+							</a>
+							<div class="tc-fdest-tag">
+								<span  class="tc-fdest-name">scenic flights</span><br>
+								<span class="tc-experiences">from $000</span>
+							</div>
+						<div class="tc-slider-popular"><img src="assets/images/slider.png" alt="slider"></div>
+							<a href="#">
+								<div class="tc-fdest-text-last"> 
+									<span>voluputulam acusstani</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-background">
+			<div class="container">
+				<div class="row clearfix">
+					<div class="container">
+						<div class="tc-footer">
+							<div class="row clearfix">
+								<div class="col-lg-5 col-md-4 col-sm-12col-xs-12 tc-footer-div1">
+									<div class="tc-heading-foot"><a href="#"><img src="assets/images/tc-logo-small.png"></a></div>
+									<div class="tc-heading-line"><span> owned & operated by Australian cruise group,australian premier 		cruise company.</span>
+									</div>
+									<div class="tc-ft-text">
+										<span>ABN : 88 156 339 945<br>
+										32 the promenade, king street wharf 5,<br>sydney 2000,NEW Australia 
+										</span>
+									</div>
+									<div class="tc-img-link">
+										<div class="tc-img-link1"><a href="#"><img src="assets/images/facebook.png" class="img-responsive" alt="facebook"></a></div>
+										<div class="tc-img-link1"><a href="#"><img src="assets/images/twitter.png" class="img-responsive" alt="twitter"></a></div>
+										<div class="tc-img-link1"><a href="#"><img src="assets/images/pinterest.png" class="img-responsive" alt="pinterest"></a></div>
+										<div class="tc-img-link1"><a href="#"><img src="assets/images/google-plus.png" class="img-responsive" alt="google"></a></div>
+									</div>
+									<div class="tc-foot-text">
+										<br>
+										Sign up for our updates & become our<br> privileged member.<br><br><br>
+										<a href="#"><div class="Subscribe">Subscribe</div></a>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+									<div class="tc-footer-table1">
+										<h6 class="footer-title">top destinations</h6>
+										<ul class="list-group tc-footer-li">
+											<li class="list-group-item"><a href="#">Sydney</a></li>
+											<li class="list-group-item"><a href="#">cairns</a></li>
+											<li class="list-group-item"><a href="#">brisbane</a></li>
+											<li class="list-group-item"><a href="#">gold coast</a></li>
+											<li class="list-group-item"><a href="#">sunshine coast</a></li>
+											<li class="list-group-item"><a href="#">whitsundays</a></li>
+											<li class="list-group-item"><a href="#">melbourne</a></li>
+											<li class="list-group-item"><a href="#">perth</a></li>
+											<li class="list-group-item"><a href="#">adeliade</a></li>
+											<li class="list-group-item"><a href="#">darwin</a></li>
+											<li class="list-group-item"><a href="#">uluru</a></li>
+											<li class="list-group-item"><a href="#">hobart</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 tc-footer-table2">
+									<div class="tc-footer-table2">
+										<h6 class="footer-title">must see attractions</h6>
+										<div class="footer-list-tc">	
+											<ul class="list-group tc-footer-li">
+												<li class="list-group-item"><a href="#">sydney opera house</a></li>
+												<li class="list-group-item"><a href="#">sydney harbour bridge</a></li>
+												<li class="list-group-item"><a href="#">blue mountain</a></li>
+												<li class="list-group-item"><a href="#">jenolan caves</a></li>
+												<li class="list-group-item"><a href="#">great barrier reef</a></li>
+												<li class="list-group-item"><a href="#">uluru</a></li>
+												<li class="list-group-item"><a href="#">bondi beach</a></li>
+												<li class="list-group-item"><a href="#">great ocean road</a></li>
+												<li class="list-group-item"><a href="#">fraser island</a></li>
+												<li class="list-group-item"><a href="#">kakadu national park</a></li>
+												<li class="list-group-item"><a href="#" class="tc-black">the tweleve apostles</a></li>
+												<li class="list-group-item"><a href="#" class="tc-black">taronga zoo</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tc-copyright">
+				<ul class="tc-copyright-list">
+					<li><a href="#" class="copyright-white">About us | </a></li>
+					<li><a href="#" class="copyright-white">website terms & conditions | </a></li>
+					<li><a href="#" class="copyright-white">privacy policy | </a></li>
+					<li><a href="#" class="copyright-white">site maps | </a></li>
+					<li><a href="#" class="copyright-white">FAQs</a></li>
+				</ul>
+				<div>&copy; 2018 TourChief Ptd Ltd All Rights Reserved</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
